@@ -55,7 +55,7 @@
      url('../assets/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     min-height: 40rem;
     
     }
@@ -85,6 +85,8 @@
 
     
 }
+
+
 
 .collapse {
     display: flex;
@@ -308,9 +310,7 @@ p {
     &_img {
         width: 23rem;
         height: 22rem;
-        border-radius: 50%;
-
-       
+        border-radius: 50%;  
 
     }
 
@@ -327,7 +327,6 @@ p {
 
     &_txt {
         text-align: left;
-        width: 40rem;
         padding: 2rem 4rem;
     }
 
@@ -336,6 +335,25 @@ p {
     }
 
    
+}
+
+@media(max-width: 1000px) {
+    .blog_txt {
+        
+        text-align: center;
+    }
+}
+
+@media(max-width: 1000px) {
+    .blog_overview {
+        text-align: center;
+    }
+}
+
+@media(max-width: 1000px) {
+    .blog_container {
+        padding: 0%;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -761,6 +779,10 @@ footer {
         padding: 2rem 3rem;
     }
 }
+
+
+
+
 // .subscribe {
 //     background-color: #f4a261;
 // }

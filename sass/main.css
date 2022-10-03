@@ -65,7 +65,7 @@
   background-image: linear-gradient(rgba(0, 0, 3, 0.5), rgba(0, 0, 3, 0.5)), url("../assets/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   min-height: 40rem;
 }
 
@@ -406,12 +406,29 @@ p {
 
 .blog_txt {
   text-align: left;
-  width: 40rem;
   padding: 2rem 4rem;
 }
 
 .blog_overview {
   text-align: left;
+}
+
+@media (max-width: 1000px) {
+  .blog_txt {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .blog_overview {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .blog_container {
+    padding: 0%;
+  }
 }
 
 @media (max-width: 1000px) {
