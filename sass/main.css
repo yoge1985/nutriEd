@@ -226,6 +226,16 @@ h2 {
           justify-content: center;
 }
 
+@media (max-width: 640px) {
+  .info_container {
+    padding: 1rem 1.5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .info {
   padding: 2rem 3rem;
   max-width: 30rem;
@@ -471,10 +481,6 @@ p {
 
 .testimonial-container {
   height: 28rem;
-}
-
-.carousel {
-  width: 600px;
 }
 
 .carousel-control-prev-icon,
@@ -864,6 +870,12 @@ footer {
   height: 12rem;
 }
 
+@media (max-width: 600px) {
+  .me_intro {
+    padding: 2rem 3rem;
+  }
+}
+
 @media (max-width: 900px) {
   .me_intro_section-txt {
     width: 100%;
@@ -872,7 +884,13 @@ footer {
 }
 
 .middle_paragraph {
-  padding: 1rem 10rem;
+  padding: 1rem 6rem;
+}
+
+@media (max-width: 600px) {
+  .middle_paragraph {
+    padding: 2rem 3rem;
+  }
 }
 
 @-webkit-keyframes moveInUp {
